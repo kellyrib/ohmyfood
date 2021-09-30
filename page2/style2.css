@@ -1,0 +1,250 @@
+/*début header*/
+header
+{
+    display: flex;
+    flex-direction: row;
+    
+}
+header img
+{
+    margin-left: 500px;
+}
+header i
+{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+/*fin header*/
+/*début block1*/
+#block1
+{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0px; left: 0px;
+
+}
+#block1 img
+{
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*fin block1*/
+/*début block2*/
+#block2
+{
+    display: flex;
+    flex-direction: column;
+    border: 2px none solid;
+    margin-right: auto;
+    margin-left: auto;
+    width: 749px;
+    border-radius: 25px 25px 0px 0px;
+    background-color: #f6f6f6;
+    position: absolute;
+    top: 500px; left: 385px;
+
+}
+#block2A
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+   
+}
+#block2A i
+{
+    margin-left: 15px;
+    margin-top: 50px;
+}
+
+/*fin block2*/
+/*début block3*/
+span
+{
+    text-decoration: underline #99E2D0;
+}
+#block3
+{
+    display: flex;
+    flex-direction: column;
+    border: none 2px solid;
+    width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #f6f6f6;
+    margin-top: 45px;
+    
+}
+h2
+{
+    margin-left: 65px;
+}
+#entree1
+{
+    display: flex;
+    flex-direction: row;
+    border: none 2px solid;
+    border-radius: 25px 25px 25px 25px;
+    background-color: white;
+    box-shadow: #e9e9e9 5px 5px;
+    margin-bottom: 15px;
+    width: 650px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+#entree2
+{
+    display: flex;
+    flex-direction: row;
+    border: none 2px solid;
+    border-radius: 25px 25px 25px 25px;
+    background-color: white;
+    box-shadow: #e9e9e9 5px 5px;
+    margin-bottom: 15px;
+    width: 650px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+#entree3
+{
+    display: flex;
+    flex-direction: row;
+    border: none 2px solid;
+    border-radius: 25px 25px 25px 25px;
+    background-color: white;
+    box-shadow: #e9e9e9 5px 5px;
+    margin-bottom: 15px;
+    width: 650px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+#plat1
+{
+    display: flex;
+    flex-direction: row;
+    border: none 2px solid;
+    border-radius: 25px 25px 25px 25px;
+    background-color: white;
+    box-shadow: #e9e9e9 5px 5px;
+    margin-bottom: 15px;
+    width: 650px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+#plat2
+{
+    display: flex;
+    flex-direction: row;
+    border: none 2px solid;
+    border-radius: 25px 25px 25px 25px;
+    background-color: white;
+    box-shadow: #e9e9e9 5px 5px;
+    margin-bottom: 15px;
+    width: 650px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+#plat3
+{
+    display: flex;
+    flex-direction: row;
+    border: none 2px solid;
+    border-radius: 25px 25px 25px 25px;
+    background-color: white;
+    box-shadow: #e9e9e9 5px 5px;
+    margin-bottom: 15px;
+    width: 650px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+#dessert1
+{
+    display: flex;
+    flex-direction: row;
+    border: none 2px solid;
+    border-radius: 25px 25px 25px 25px;
+    background-color: white;
+    box-shadow: #e9e9e9 5px 5px;
+    margin-bottom: 15px;
+    width: 650px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+#dessert2
+{
+    display: flex;
+    flex-direction: row;
+    border: none 2px solid;
+    border-radius: 25px 25px 25px 25px;
+    background-color: white;
+    box-shadow: #e9e9e9 5px 5px;
+    margin-bottom: 15px;
+    width: 650px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+#dessert3
+{
+    display: flex;
+    flex-direction: row;
+    border: none 2px solid;
+    border-radius: 25px 25px 25px 25px;
+    background-color: white;
+    box-shadow: #e9e9e9 5px 5px;
+    margin-bottom: 15px;
+    width: 650px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.nomduplat
+{
+    display: flex;
+    flex-direction:column ;
+    margin-left: 15px;
+}
+.prix
+{
+    margin-left: 250px;
+    margin-top:50px ;
+}
+#entree p
+{
+    padding-top: 10px;
+}
+h3
+{
+    padding-bottom: 10px;
+}
+/*fin block3*/
+
+
+/* début footer*/
+footer
+{
+    display: flex;
+    flex-direction: row;
+    background-color: #353535;
+    color: white;
+    justify-content: space-around;
+}
+footer img
+{
+    width:100px;
+    margin-top: 15px;
+ 
+}
+/* fin footer*/
