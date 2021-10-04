@@ -1,3 +1,29 @@
+@font-face {
+    font-family: 'Shrikhand';
+    src: url('../fonts/ecritureattachee/Shrikhand-Regular.eot');
+    src: url('../fonts/ecritureattachee/Shrikhand-Regular.eot') format('embedded-opentype'),
+        url('../fonts/ecritureattachee/Shrikhand-Regular.woff2') format('woff2'),
+        url('../fonts/ecritureattachee/Shrikhand-Regular.woff') format('woff'),
+        url('../fonts/ecritureattachee/Shrikhand-Regular.ttf') format('truetype'),
+        url('../fonts/ecritureattachee/Shrikhand-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Calibri';
+    src: url('Calibri.eot');
+    src: url('../fonts/Calibri/Calibri.eot') format('embedded-opentype'),
+        url('../fonts/Calibri/Calibri.woff2') format('woff2'),
+        url('../fonts/Calibri/Calibri.woff') format('woff'),
+        url('../fonts/Calibri/Calibri.ttf') format('truetype'),
+        url('../fonts/Calibri/Calibri.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 /*début header*/
 header
 {
@@ -54,6 +80,8 @@ header i
     margin-left: auto;
     margin-right: auto;
     font-size: 30px;
+    font-family: 'Shrikhand' ;
+    font-weight: normal;
    
 }
 #block2A i
@@ -78,16 +106,22 @@ span
     margin-left: auto;
     background-color: #f6f6f6;
     margin-top: 45px;
-    
+    font-family: 'Calibri';  
+}
+#block3 p
+{
+    font-size: 20px;
 }
 h2
 {
     margin-left: 65px;
+    font-size: 25px;
+    font-weight: normal;
 }
 #entree1
 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     border: none 2px solid;
     border-radius: 25px 25px 25px 25px;
     background-color: white;
@@ -101,7 +135,7 @@ h2
 #entree2
 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     border: none 2px solid;
     border-radius: 25px 25px 25px 25px;
     background-color: white;
@@ -115,7 +149,7 @@ h2
 #entree3
 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     border: none 2px solid;
     border-radius: 25px 25px 25px 25px;
     background-color: white;
@@ -129,7 +163,7 @@ h2
 #plat1
 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     border: none 2px solid;
     border-radius: 25px 25px 25px 25px;
     background-color: white;
@@ -143,7 +177,7 @@ h2
 #plat2
 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     border: none 2px solid;
     border-radius: 25px 25px 25px 25px;
     background-color: white;
@@ -157,7 +191,7 @@ h2
 #plat3
 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     border: none 2px solid;
     border-radius: 25px 25px 25px 25px;
     background-color: white;
@@ -171,7 +205,7 @@ h2
 #dessert1
 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     border: none 2px solid;
     border-radius: 25px 25px 25px 25px;
     background-color: white;
@@ -185,7 +219,7 @@ h2
 #dessert2
 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     border: none 2px solid;
     border-radius: 25px 25px 25px 25px;
     background-color: white;
@@ -199,7 +233,7 @@ h2
 #dessert3
 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     border: none 2px solid;
     border-radius: 25px 25px 25px 25px;
     background-color: white;
@@ -215,11 +249,16 @@ h2
     display: flex;
     flex-direction:column ;
     margin-left: 15px;
+    height: 40px;
 }
 .prix
 {
-    margin-left: 250px;
-    margin-top:50px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 40px;
+    
 }
 #entree p
 {
@@ -228,8 +267,29 @@ h2
 h3
 {
     padding-bottom: 10px;
+    font-size: 25px;
 }
 /*fin block3*/
+/*début commander*/
+#commander
+{
+    
+    width: 400px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 60px;
+    background:linear-gradient(70deg, #FF79DA , #9356DC);
+    color: white;
+    font-size: 30px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 5px 10px 5px 10px;
+    font-family: 'Calibri';  
+    
+    
+}
+/*fin commander*/
 
 
 /* début footer*/
@@ -240,11 +300,31 @@ footer
     background-color: #353535;
     color: white;
     justify-content: space-around;
+    font-family: 'Calibri';  
 }
 footer img
 {
     width:100px;
     margin-top: 15px;
- 
+}
+#A
+{
+    display: flex;
+    flex-direction: row;
+}
+#A i
+{
+    margin-top: 17px;
+    margin-right: 5px;
+}
+#B
+{
+    display: flex;
+    flex-direction: row;
+}
+#B i
+{
+    margin-top: 17px;
+    margin-right: 5px;
 }
 /* fin footer*/
