@@ -300,7 +300,8 @@ footer
     background-color: #353535;
     color: white;
     justify-content: space-around;
-    font-family: 'Calibri';  
+    font-family: 'Calibri'; 
+    align-items: center; 
 }
 footer img
 {
@@ -326,5 +327,12 @@ footer img
 {
     margin-top: 17px;
     margin-right: 5px;
+}
+#D a
+{
+    color: white;
+    text-decoration: none;
+    margin-top: auto;
+    justify-content: center;
 }
 /* fin footer*/
