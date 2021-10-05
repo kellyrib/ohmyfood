@@ -224,7 +224,9 @@ footer
     color: white;
     justify-content: space-around;
     align-items: center;
+    
 }
+
 footer img
 {
     width:100px;
@@ -321,6 +323,7 @@ footer img
     #block1 p
     {
         font-size: 15px;
+        text-align: center;
     }
     h1
     {
@@ -331,6 +334,7 @@ footer img
     {
         font-size: 20px;
         font-weight: normal;
+        margin-bottom: 12px;
     }
     #explorer
     {
@@ -340,8 +344,10 @@ footer img
         color: white;
         margin-right: 20%;
         margin-left: 20%;
-        width: 218px;
+        width: 220px;
         height: 50px;
+        padding-bottom: inherit;
+        margin-top: -7px;
     }
 /*fin block1*/
 /*début block2*/
@@ -504,39 +510,43 @@ h1
         color: white;
         justify-items:baseline;
         align-items: flex-start;
+        height: 200px;
+        
     }
     footer img
     {
         width:95px;
-        margin-top: 5px;
-    
+        margin-top: 25px;
+        padding-bottom: 0px;
+        margin-left: 15px;
     }
     #A
     {
         display: flex;
         flex-direction: row;
         margin-left: 5px;
-       
+        height: 0px;
+        margin-top: -30px;
     }
+
     #A i
     {
-       
+        margin-left: 15px;
         margin-right: 5px;
         padding-top: 2px ;
-        
     }
+
     #B
     {
         display: flex;
         flex-direction: row;
-        
-        
+        height: 0px;
     }
     #B i
     {
         padding-top: 2px ;
         margin-right: 5px;
-        margin-left: 5px;
+        margin-left: 15px;
     }
     #D a
     {
@@ -547,12 +557,18 @@ h1
     }
     #C
     {
-        margin-left: 5px;
+        margin-left: 20px;
+        height: 0px;
+        padding-top: 0px;
+        margin-bottom: 5px;
+        
         
     }
     #D
     {
-        margin-left: 5px;
+        margin-left: 20px;
+        height: 0px;
+        margin-bottom: 20px;
     }
     /* fin footer*/
 
