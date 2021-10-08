@@ -260,10 +260,20 @@ footer img
     margin-top: auto;
     justify-content: center;
 }
+a 
+{
+    text-decoration: none;
+    color: black;
+}
 /* fin footer*/
 
 @media all and (max-width: 680px)
 {
+    a 
+    {
+        text-decoration: none;
+        color: black;
+    }
     body
     {
         display: flex;
@@ -484,13 +494,17 @@ h2
 }
 #francaise i
 {
-    margin-left: 200px;
+    margin-left: 120px;
 }
 #note i
 {
     margin-left: 90px;
 }
 #palette i
+{
+    margin-left: 90px;
+}
+#delice i
 {
     margin-left: 90px;
 }
