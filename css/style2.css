@@ -379,8 +379,11 @@ footer img
 /* fin footer*/
 @media all and (max-width: 680px)
 {
+
     body 
     {
+        display: flex;
+        flex-direction: column;
         width: 377px;
         margin-left: auto;
         margin-right: auto;
@@ -490,7 +493,7 @@ footer img
         {
         width: 262px;
         }
-    p
+    .pointdesuspension p
         {
         width: 200px;
         border: 1px solid none;
