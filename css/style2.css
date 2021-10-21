@@ -35,11 +35,28 @@ header img
 {
     margin-left: 430px;
 }
-header i
+.coeurplein
 {
-    margin-left: 50px;
-    margin-top: 20px;
-    color: black;
+    position: relative;
+    background: -webkit-linear-gradient(90deg,#FF79DA, #9356DC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;;
+    opacity: 0;
+    transition: opacity 1s;
+    cursor: pointer;
+}
+.coeurvide
+{
+    position: absolute;
+    transition: opacity 1s;
+}
+.coeurplein:hover
+{
+    opacity: 1;
+}
+.coeurvide:hover
+{
+    opacity: 0;
 }
 /*fin header*/
 /*début block1*/
@@ -381,9 +398,11 @@ footer img
 @keyframes apparition {
     0% {
       opacity: 0;
+      margin-top: 60px;
     }
     100% {
       opacity: 1;
+      margin-top: 0px;
     }
   }
   #entree1
@@ -467,15 +486,41 @@ footer img
         margin-top: 20px;
         margin-bottom: 12px ;
         margin-right: auto;
-        margin-left: 80px;
+        margin-left: auto;
     }
     header i
     {
-        width: 10px;
-        margin-bottom: 12px ;
-        margin-left: 15px;
+        margin-top: 15px;
         color: black;
-
+        position: absolute;
+        margin-left:-70px;
+        
+    }
+        .coeurplein
+    {
+        position: relative;
+        background: -webkit-linear-gradient(90deg,#FF79DA, #9356DC);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;;
+        opacity: 0;
+        transition: opacity 1s;
+        cursor: pointer;
+        margin-top: -10px;
+    }
+    .coeurvide
+    {
+        position: absolute;
+        transition: opacity 1s;
+        margin-top: -10px;
+        
+    }
+    .coeurplein:hover
+    {
+        opacity: 1;
+    }
+    .coeurvide:hover
+    {
+        opacity: 0;
     }
     /*fin header*/
     #block1
@@ -533,7 +578,7 @@ footer img
         flex-direction: row;
         margin-left: auto;
         margin-right: auto;
-        font-size: 22px;
+        font-size: 18px;
         font-family: 'Shrikhand' ;
         font-weight: normal;
         width: 385px;
@@ -843,9 +888,7 @@ footer img
         margin-left: 20px;
         height: 0px;
         padding-top: 0px;
-        margin-bottom: 5px;
-        
-        
+        margin-bottom: 5px;  
     }
     #D
     {
@@ -854,73 +897,69 @@ footer img
         margin-bottom: 20px;
     }
     /* fin footer*/
-    /*animation*/
-@keyframes apparition {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
+
   /*animation*/
 @keyframes apparition {
     0% {
       opacity: 0;
+      margin-top: 60px;
     }
     100% {
       opacity: 1;
+      margin-top: 0px;
+      
     }
   }
   #entree1
   {
       animation-name: apparition;
-      animation-duration: 2s;
+      animation-duration: 0.5s;
   }
   #entree2
   {
       animation-name: apparition;
-      animation-duration: 4s;
+      animation-duration: 1s;
   }
   #entree3
   {
     animation-name: apparition;
-    animation-duration: 6s;
+    animation-duration: 1.5s;
   }
   #entree4
   {
     animation-name: apparition;
-    animation-duration: 8s;
+    animation-duration: 2s;
   }
   #plat1
   {
     animation-name: apparition;
-    animation-duration: 10s;
+    animation-duration: 2.5s;
   }
   #plat2
   {
     animation-name: apparition;
-    animation-duration: 12s;
+    animation-duration: 3s;
   }
   #plat3
   {
     animation-name: apparition;
-    animation-duration: 14s;
+    animation-duration: 3.5s;
   }
   #dessert1
   {
     animation-name: apparition;
-    animation-duration: 16s;
+    animation-duration: 4s;
   }
   #dessert2
   {
     animation-name: apparition;
-    animation-duration: 18s;
+    animation-duration: 4.5s;
   }
   #dessert3
   {
     animation-name: apparition;
-    animation-duration: 20s;
+    animation-duration: 5s;
+
   }
 
 
