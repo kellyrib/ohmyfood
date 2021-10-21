@@ -71,6 +71,7 @@ header img
     margin-right: 20%;
     margin-left: 20%;
 }
+
 h3
 {
     font-size: 40px;
@@ -112,7 +113,9 @@ h1
     margin-left: 20%;
     box-shadow: #e9e9e9 10px 5px 5px;
     background-color: #f6f6f6;
+    cursor: pointer;
 }
+
 #choisir i
 {
    margin-right: 20px;
@@ -197,6 +200,7 @@ h1
 {
    margin-left: 200px;
    margin-top: 35px;
+   
 }
 h2
 {
@@ -212,6 +216,43 @@ h2
 #francaise i
 {
 margin-left: 250px;
+}
+.coeurplein
+{
+    position: relative;
+    background: -webkit-linear-gradient(90deg,#FF79DA, #9356DC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;;
+    opacity: 0 ;
+    transition: opacity 1s;
+    margin-top: -68px;
+    cursor: pointer;
+
+}
+.coeurvide
+{
+    position: absolute;
+    transition: color 1s;
+    margin-top: -100px;
+    margin-left : 220px
+
+}
+.coeurplein:hover
+{
+    opacity: 1;
+}
+.coeurvide:hover
+{
+    color: #FF79DA;
+}
+#francaise .coeurvide
+
+{
+    position: absolute;
+    transition: color 1s;
+    margin-top: -100px;
+    margin-left : 180px
+
 }
 
 /*fin block3*/
@@ -265,7 +306,18 @@ a
     text-decoration: none;
     color: black;
 }
+
 /* fin footer*/
+/*animations*/
+.photoresto :hover
+{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+
+
+
 
 @media all and (max-width: 680px)
 {
@@ -494,7 +546,7 @@ h2
 }
 #francaise i
 {
-    margin-left: 120px;
+    margin-left: 100px;
 }
 #note i
 {
@@ -586,7 +638,18 @@ h1
     }
     /* fin footer*/
 
+    /*animations*/
+    .photoresto :hover
+{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.coeurvide
+{
+    position: absolute;
+    transition: color 1s;
+    margin-top: -100px;
+    margin-left : 200px
 
-
-    }
-
+}
+}

@@ -377,6 +377,69 @@ footer img
     justify-content: center;
 }
 /* fin footer*/
+/*animation*/
+@keyframes apparition {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  #entree1
+  {
+      animation-name: apparition;
+      animation-duration: 2s;
+  }
+  #entree2
+  {
+      animation-name: apparition;
+      animation-duration: 4s;
+  }
+  #entree3
+  {
+    animation-name: apparition;
+    animation-duration: 6s;
+  }
+  #entree4
+  {
+    animation-name: apparition;
+    animation-duration: 8s;
+  }
+  #plat1
+  {
+    animation-name: apparition;
+    animation-duration: 10s;
+  }
+  #plat2
+  {
+    animation-name: apparition;
+    animation-duration: 12s;
+  }
+  #plat3
+  {
+    animation-name: apparition;
+    animation-duration: 14s;
+  }
+  #dessert1
+  {
+    animation-name: apparition;
+    animation-duration: 16s;
+  }
+  #dessert2
+  {
+    animation-name: apparition;
+    animation-duration: 18s;
+  }
+  #dessert3
+  {
+    animation-name: apparition;
+    animation-duration: 20s;
+  }
+
+
+/*animation*/
+
 @media all and (max-width: 680px)
 {
 
@@ -791,4 +854,78 @@ footer img
         margin-bottom: 20px;
     }
     /* fin footer*/
+    /*animation*/
+@keyframes apparition {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  /*animation*/
+@keyframes apparition {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  #entree1
+  {
+      animation-name: apparition;
+      animation-duration: 2s;
+  }
+  #entree2
+  {
+      animation-name: apparition;
+      animation-duration: 4s;
+  }
+  #entree3
+  {
+    animation-name: apparition;
+    animation-duration: 6s;
+  }
+  #entree4
+  {
+    animation-name: apparition;
+    animation-duration: 8s;
+  }
+  #plat1
+  {
+    animation-name: apparition;
+    animation-duration: 10s;
+  }
+  #plat2
+  {
+    animation-name: apparition;
+    animation-duration: 12s;
+  }
+  #plat3
+  {
+    animation-name: apparition;
+    animation-duration: 14s;
+  }
+  #dessert1
+  {
+    animation-name: apparition;
+    animation-duration: 16s;
+  }
+  #dessert2
+  {
+    animation-name: apparition;
+    animation-duration: 18s;
+  }
+  #dessert3
+  {
+    animation-name: apparition;
+    animation-duration: 20s;
+  }
+
+
+/*animation*/
+
 }
+
+/*animation*/ 
