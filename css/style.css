@@ -190,7 +190,6 @@ h1
     width: 500px;
     height: auto;
     border-radius: 20px 20px 0px 0px;
-    margin-bottom: none;
     margin: auto;
 }
 #note img
@@ -206,7 +205,6 @@ h1
     border-radius: 0px 0px 20px 20px;
     width: 502px;
     margin: auto;
-    margin-top: none;
     box-shadow:#e9e9e9 10px 5px 5px 5px; 
     margin-bottom: 20px;
 }
@@ -230,7 +228,7 @@ h2
 }
 #francaise i
 {
-margin-left: 250px;
+margin-left: 65px;
 }
 .coeurplein
 {
@@ -241,11 +239,16 @@ margin-left: 250px;
     opacity: 0;
     transition: opacity 1s;
     cursor: pointer;
+    margin-top: 40px;
+    margin-left: 170px;
+    
 }
 .coeurvide
 {
     position: absolute;
     transition: color 1s;
+    margin-left: 170px;
+    margin-top: 40px;
 }
 .coeurplein:hover
 {
@@ -349,9 +352,6 @@ a
 }
 
 
-
-
-
 @media all and (max-width: 680px)
 {
     a 
@@ -413,7 +413,7 @@ a
         padding-bottom: 20px;
         margin-right: -7px;
         font-family: "Calibri";
-        margin-top: none;
+        
     }
     #block1 p
     {
@@ -538,7 +538,6 @@ a
     width: 335px;
     height: auto;
     border-radius: 20px 20px 0px 0px;
-    margin-bottom: none;
     margin: auto;
 }
 #note img
@@ -553,13 +552,12 @@ a
     width: 335px;
     box-shadow: #e9e9e9 10px 5px 5px 5px; 
     margin-bottom: 20px;
-    margin-top: none;
 }
 .legendephoto
 {
     display: flex;
     flex-direction: column;
-    margin-left: 10 px;
+    margin-left: 10px;
 }
 
 h2
@@ -691,7 +689,7 @@ h1
     background: -webkit-linear-gradient(90deg,#FF79DA, #9356DC);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;;
-    opacity: 0;
+    opacity: 1;
     transition: opacity 1s;
     cursor: pointer;
     margin-top: 25px ;
