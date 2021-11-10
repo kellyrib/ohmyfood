@@ -689,7 +689,7 @@ h1
     background: -webkit-linear-gradient(90deg,#FF79DA, #9356DC);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;;
-    opacity: 1;
+    opacity: 0;
     transition: opacity 1s;
     cursor: pointer;
     margin-top: 25px ;
@@ -704,12 +704,5 @@ h1
 {
     color: #FF79DA;
 }
-#francaise .coeurplein
-{
-    margin-left: -120px;
-}
-#francaise .coeurvide
-{
-    margin-left: -120px;
-}
+
 }
