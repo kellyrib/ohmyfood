@@ -313,10 +313,130 @@ h2
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     margin-left: 20px;
-    margin-right: 40px;
     
+    
+}
+
+.animationcheck
+{
+    margin-top: 18px;
+}
+
+.anim
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+
+}
+#entree1 :hover
+{
+    width: 600px;
+}
+/*test*/
+#entreeA
+{
+    display: flex;
+    flex-direction: row;
+    border: 2px black solid;
+    border-radius: 25px 25px 25px 25px ;
+    width: 650px;
+    margin: auto;
+    height: 100px;
+}
+#INTITULE
+{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    height: 100px;
+    margin-left: 10px;
+}
+#INTITULE:hover
+{
+    width: 642px ;
+    height: 100px;
+}
+#INTITULE:hover .check i
+{
+    animation: rotate 2s ease;
+    opacity: 1;
+}
+.check
+{
+ padding: 40px 25px 10px 25px;
+ width: 0px;
+ border-radius: 0px 25px 25px 0px;
+ opacity: 0;
+ display: flex;
+ flex-direction: row;
+ text-align: end;
+ background-color: #99E2D0;
+ transition: slideout 1s ease-in-out;
+ margin-left: 0px;
+ 
+}
+#INTITULE:hover .check 
+{
+    animation: slide 1s ease-in-out;
+    opacity: 1;
+    animation-fill-mode: forwards;  
+}
+.check i
+{
+    color: white;
+}
+@keyframes rotate {
+    from {
+        
+        transform: rotate(0deg);
+        opacity: 0;
+    }
+    to {
+        
+        transform: rotate(360deg);
+        opacity: 1;
+    }
+}
+@keyframes slide {
+    from {
+        transform: translateX(O);
+        opacity: 0;
+        margin-left: 0px;
+        background-color: none;
+        width: 0;
+        
+    }
+    to  {
+        transform: translateX(-2px);
+        opacity: 1;
+        margin-left: 70px;
+        background-color: #99E2D0;
+        width: 130px;
+    }
+}
+
+#INTITULE h3
+{
+   margin-bottom: 2px;
+   margin-top: 5px;
+}
+#INTITULE p
+{
+    margin-top: 2px;
+    margin-bottom: 2px; 
+}
+.test
+{
+    width: 500px; 
+}
+
+.COUT
+{
+    margin-top: 50px;
+    font-size: 25px;
+    width: 70px;   
 }
 #entree p
 {
@@ -455,9 +575,7 @@ footer img
     animation-name: apparition;
     animation-duration: 20s;
   }
-
-
-/*animation*/
+  
 
 @media all and (max-width: 680px)
 {
