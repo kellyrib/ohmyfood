@@ -339,11 +339,14 @@ h2
 {
     display: flex;
     flex-direction: row;
-    border: 2px black solid;
+    border: 2px none solid;
     border-radius: 25px 25px 25px 25px ;
+    box-shadow: #e9e9e9 5px 5px;
+    background-color: white;
     width: 650px;
     margin: auto;
     height: 100px;
+    margin-bottom: 15px;
 }
 #INTITULE
 {
