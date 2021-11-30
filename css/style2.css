@@ -162,180 +162,9 @@ h2
     font-size: 25px;
     font-weight: normal;
 }
-#entree1
-{
-    display: flex;
-    flex-direction: column;
-    border: none 2px solid;
-    border-radius: 25px 25px 25px 25px;
-    background-color: white;
-    box-shadow: #e9e9e9 5px 5px;
-    margin-bottom: 15px;
-    width: 650px;
-    margin-right: auto;
-    margin-left: auto;
 
-}
-#entree2
-{
-    display: flex;
-    flex-direction: column;
-    border: none 2px solid;
-    border-radius: 25px 25px 25px 25px;
-    background-color: white;
-    box-shadow: #e9e9e9 5px 5px;
-    margin-bottom: 15px;
-    width: 650px;
-    margin-right: auto;
-    margin-left: auto;
-
-}
-#entree3
-{
-    display: flex;
-    flex-direction: column;
-    border: none 2px solid;
-    border-radius: 25px 25px 25px 25px;
-    background-color: white;
-    box-shadow: #e9e9e9 5px 5px;
-    margin-bottom: 15px;
-    width: 650px;
-    margin-right: auto;
-    margin-left: auto;
-
-}
-#entree4
-{
-    display: flex;
-    flex-direction: column;
-    border: none 2px solid;
-    border-radius: 25px 25px 25px 25px;
-    background-color: white;
-    box-shadow: #e9e9e9 5px 5px;
-    margin-bottom: 15px;
-    width: 650px;
-    margin-right: auto;
-    margin-left: auto;
-
-}
-#plat1
-{
-    display: flex;
-    flex-direction: column;
-    border: none 2px solid;
-    border-radius: 25px 25px 25px 25px;
-    background-color: white;
-    box-shadow: #e9e9e9 5px 5px;
-    margin-bottom: 15px;
-    width: 650px;
-    margin-right: auto;
-    margin-left: auto;
-
-}
-#plat2
-{
-    display: flex;
-    flex-direction: column;
-    border: none 2px solid;
-    border-radius: 25px 25px 25px 25px;
-    background-color: white;
-    box-shadow: #e9e9e9 5px 5px;
-    margin-bottom: 15px;
-    width: 650px;
-    margin-right: auto;
-    margin-left: auto;
-
-}
-#plat3
-{
-    display: flex;
-    flex-direction: column;
-    border: none 2px solid;
-    border-radius: 25px 25px 25px 25px;
-    background-color: white;
-    box-shadow: #e9e9e9 5px 5px;
-    margin-bottom: 15px;
-    width: 650px;
-    margin-right: auto;
-    margin-left: auto;
-
-}
-#dessert1
-{
-    display: flex;
-    flex-direction: column;
-    border: none 2px solid;
-    border-radius: 25px 25px 25px 25px;
-    background-color: white;
-    box-shadow: #e9e9e9 5px 5px;
-    margin-bottom: 15px;
-    width: 650px;
-    margin-right: auto;
-    margin-left: auto;
-
-}
-#dessert2
-{
-    display: flex;
-    flex-direction: column;
-    border: none 2px solid;
-    border-radius: 25px 25px 25px 25px;
-    background-color: white;
-    box-shadow: #e9e9e9 5px 5px;
-    margin-bottom: 15px;
-    width: 650px;
-    margin-right: auto;
-    margin-left: auto;
-
-}
-#dessert3
-{
-    display: flex;
-    flex-direction: column;
-    border: none 2px solid;
-    border-radius: 25px 25px 25px 25px;
-    background-color: white;
-    box-shadow: #e9e9e9 5px 5px;
-    margin-bottom: 15px;
-    width: 650px;
-    margin-right: auto;
-    margin-left: auto;
-
-}
-.nomduplat
-{
-    display: flex;
-    flex-direction:column ;
-    margin-left: 15px;
-    height: 40px;
-}
-.prix
-{
-    display: flex;
-    flex-direction: row;
-    margin-left: 20px;
-    
-    
-}
-
-.animationcheck
-{
-    margin-top: 18px;
-}
-
-.anim
-{
-    display: flex;
-    flex-direction: row;
-    margin-left: 150px;
-
-}
-#entree1 :hover
-{
-    width: 600px;
-}
 /*test*/
-#entreeA
+#entreeA, #entreeB, #entreeC, #platA, #platB, #platC, #dessertA, #dessertB, #dessertC
 {
     display: flex;
     flex-direction: row;
@@ -348,7 +177,7 @@ h2
     height: 100px;
     margin-bottom: 15px;
 }
-#INTITULE
+.INTITULE
 {
     display: flex;
     flex-direction: row;
@@ -356,12 +185,12 @@ h2
     height: 100px;
     margin-left: 10px;
 }
-#INTITULE:hover
+.INTITULE:hover
 {
     width: 642px ;
     height: 100px;
 }
-#INTITULE:hover .check i
+.INTITULE:hover .check i
 {
     animation: rotate 2s ease;
     opacity: 1;
@@ -380,7 +209,7 @@ h2
  margin-left: 0px;
  
 }
-#INTITULE:hover .check 
+.INTITULE:hover .check 
 {
     animation: slide 1s ease-in-out;
     opacity: 1;
@@ -420,12 +249,12 @@ h2
     }
 }
 
-#INTITULE h3
+.INTITULE h3
 {
    margin-bottom: 2px;
    margin-top: 5px;
 }
-#INTITULE p
+.INTITULE p
 {
     margin-top: 2px;
     margin-bottom: 2px; 
@@ -717,14 +546,10 @@ footer img
     }
     /*fin block2*/
     /*début block3*/
-    
-    .pointdesuspension
-        {
-        width: 262px;
-        }
+   
     .pointdesuspension p
         {
-        width: 200px;
+        width: 140px;
         border: 1px solid none;
         padding: 2px 5px;
         white-space: nowrap;
@@ -738,10 +563,7 @@ footer img
         {
         direction: ltr;
         }
-    .price
-        {
-            margin-left: 50px;
-        }
+   
     
     #block3
     {
@@ -765,158 +587,7 @@ footer img
         font-size: 25px;
         font-weight: normal;
     }
-    #entree1
-    {
-        display: flex;
-        flex-direction: column;
-        border: none 2px solid;
-        border-radius: 25px 25px 25px 25px;
-        background-color: white;
-        box-shadow: #e9e9e9 5px 5px;
-        margin-bottom: 15px;
-        width: 350px;
-        margin-right: auto;
-        margin-left: auto;
-
-    }
-    #entree2
-    {
-        display: flex;
-        flex-direction: column;
-        border: none 2px solid;
-        border-radius: 25px 25px 25px 25px;
-        background-color: white;
-        box-shadow: #e9e9e9 5px 5px;
-        margin-bottom: 15px;
-        width: 350px;
-        margin-right: auto;
-        margin-left: auto;
-
-    }
-    #entree3
-    {
-        display: flex;
-        flex-direction: column;
-        border: none 2px solid;
-        border-radius: 25px 25px 25px 25px;
-        background-color: white;
-        box-shadow: #e9e9e9 5px 5px;
-        margin-bottom: 15px;
-        width: 350px;
-        margin-right: auto;
-        margin-left: auto;
-
-    }
-    #entree4
-    {
-        display: flex;
-        flex-direction: column;
-        border: none 2px solid;
-        border-radius: 25px 25px 25px 25px;
-        background-color: white;
-        box-shadow: #e9e9e9 5px 5px;
-        margin-bottom: 15px;
-        width: 350px;
-        margin-right: auto;
-        margin-left: auto;
-
-    }
-    #plat1
-    {
-        display: flex;
-        flex-direction: column;
-        border: none 2px solid;
-        border-radius: 25px 25px 25px 25px;
-        background-color: white;
-        box-shadow: #e9e9e9 5px 5px;
-        margin-bottom: 15px;
-        width: 350px;
-        margin-right: auto;
-        margin-left: auto;
-
-    }
-    #plat2
-    {
-        display: flex;
-        flex-direction: column;
-        border: none 2px solid;
-        border-radius: 25px 25px 25px 25px;
-        background-color: white;
-        box-shadow: #e9e9e9 5px 5px;
-        margin-bottom: 15px;
-        width: 350px;
-        margin-right: auto;
-        margin-left: auto;
-
-    }
-    #plat3
-    {
-        display: flex;
-        flex-direction: column;
-        border: none 2px solid;
-        border-radius: 25px 25px 25px 25px;
-        background-color: white;
-        box-shadow: #e9e9e9 5px 5px;
-        margin-bottom: 15px;
-        width: 350px;
-        margin-right: auto;
-        margin-left: auto;
-
-    }
-    #dessert1
-    {
-        display: flex;
-        flex-direction: column;
-        border: none 2px solid;
-        border-radius: 25px 25px 25px 25px;
-        background-color: white;
-        box-shadow: #e9e9e9 5px 5px;
-        margin-bottom: 15px;
-        width: 350px;
-        margin-right: auto;
-        margin-left: auto;
-
-    }
-    #dessert2
-    {
-        display: flex;
-        flex-direction: column;
-        border: none 2px solid;
-        border-radius: 25px 25px 25px 25px;
-        background-color: white;
-        box-shadow: #e9e9e9 5px 5px;
-        margin-bottom: 15px;
-        width: 350px;
-        margin-right: auto;
-        margin-left: auto;
-
-    }
-    #dessert3
-    {
-        display: flex;
-        flex-direction: column;
-        border: none 2px solid;
-        border-radius: 25px 25px 25px 25px;
-        background-color: white;
-        box-shadow: #e9e9e9 5px 5px;
-        margin-bottom: 15px;
-        width: 350px;
-        margin-right: auto;
-        margin-left: auto;
-
-    }
-    .nomduplat
-    {
-        display: flex;
-        flex-direction:column ;
-        margin-left: 15px;
-        height: 40px;
-    }
-    .prix
-    {
-        display: flex;
-        flex-direction: row;
-    }
+    
     #entree p
     {
         padding-top: 10px;
@@ -1018,6 +689,121 @@ footer img
         margin-bottom: 20px;
     }
     /* fin footer*/
+    #entreeA, #entreeB, #entreeC, #platA, #platB, #platC, #dessertA, #dessertB, #dessertC
+{
+    display: flex;
+    flex-direction: row;
+    border: 2px none solid;
+    border-radius: 25px 25px 25px 25px ;
+    box-shadow: #e9e9e9 5px 5px;
+    background-color: white;
+    width: 370px;
+    margin: auto;
+    height: 100px;
+    margin-bottom: 15px;
+}
+.INTITULE
+{
+    display: flex;
+    flex-direction: row;
+    width: 368px;
+    height: 100px;
+    margin-left: 10px;
+}
+.INTITULE:hover
+{
+    width: 368px ;
+    height: 100px;
+}
+.INTITULE:hover .check i
+{
+    animation: rotate 2s ease;
+    opacity: 1;
+}
+.check
+{
+ padding: 40px 25px 10px 25px;
+ width: 0px;
+ border-radius: 0px 25px 25px 0px;
+ opacity: 0;
+ display: flex;
+ flex-direction: row;
+ text-align: end;
+ background-color: #99E2D0;
+ transition: slideout 1s ease-in-out;
+ margin-left: 0px;
+ 
+}
+.INTITULE:hover .check 
+{
+    animation: slide 1s ease-in-out;
+    opacity: 1;
+    animation-fill-mode: forwards;  
+}
+.check i
+{
+    color: white;
+}
+@keyframes rotate {
+    from {
+        
+        transform: rotate(0deg);
+        opacity: 0;
+    }
+    to {
+        
+        transform: rotate(360deg);
+        opacity: 1;
+    }
+}
+@keyframes slide {
+    from {
+        transform: translateX(O);
+        opacity: 0;
+        margin-left: 0px;
+        background-color: none;
+        width: 0;
+        
+    }
+    to  {
+        transform: translateX(-2px);
+        opacity: 1;
+        margin-left: 70px;
+        background-color: #99E2D0;
+        width: 130px;
+    }
+}
+
+.INTITULE h3
+{
+   margin-bottom: 2px;
+   margin-top: 5px;
+}
+.INTITULE p
+{
+    margin-top: 2px;
+    margin-bottom: 2px; 
+}
+.test
+{
+    width: 500px; 
+}
+
+.COUT
+{
+    margin-top: 50px;
+    font-size: 25px;
+    width: 60px;   
+}
+#entree p
+{
+    padding-top: 10px;
+}
+h3
+{
+    padding-bottom: 10px;
+    font-size: 25px;
+}
 }
   
 
