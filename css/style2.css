@@ -164,7 +164,7 @@ h2
 }
 
 /*test*/
-#entreeA, #entreeB, #entreeC, #platA, #platB, #platC, #dessertA, #dessertB, #dessertC
+#entreeA, #entreeB, #entreeC,#entreeD, #platA, #platB, #platC, #dessertA, #dessertB, #dessertC
 {
     display: flex;
     flex-direction: row;
@@ -357,58 +357,58 @@ footer img
       margin-top: 0px;
     }
   }
-  #entree1
+  #entreeA
   {
       animation-name: apparition;
       animation-duration: 2s;
   }
-  #entree2
+  #entreeB
   {
       animation-name: apparition;
       animation-duration: 4s;
   }
-  #entree3
+  #entreeC
   {
     animation-name: apparition;
     animation-duration: 6s;
   }
-  #entree4
+  #entreeD
   {
     animation-name: apparition;
     animation-duration: 8s;
   }
-  #plat1
+  #platA
   {
     animation-name: apparition;
     animation-duration: 10s;
   }
-  #plat2
+  #platB
   {
     animation-name: apparition;
     animation-duration: 12s;
   }
-  #plat3
+  #platC
   {
     animation-name: apparition;
     animation-duration: 14s;
   }
-  #dessert1
+  #dessertA
   {
     animation-name: apparition;
     animation-duration: 16s;
   }
-  #dessert2
+  #dessertB
   {
     animation-name: apparition;
     animation-duration: 18s;
   }
-  #dessert3
+  #dessertC
   {
     animation-name: apparition;
     animation-duration: 20s;
   }
   
-
+/*---------------------------------------------------------------------------------------*/
 @media all and (max-width: 680px)
 {
 
@@ -547,9 +547,9 @@ footer img
     /*fin block2*/
     /*début block3*/
    
-    .pointdesuspension p
+    .pointdesuspension p, h3
         {
-        width: 140px;
+        width: 120px;
         border: 1px solid none;
         padding: 2px 5px;
         white-space: nowrap;
@@ -579,7 +579,7 @@ footer img
     }
     #block3 p
     {
-        font-size: 18px;
+        font-size: 15px;
     }
     h2
     {
@@ -595,7 +595,7 @@ footer img
     h3
     {
         padding-bottom: 10px;
-        font-size: 20px;
+        font-size: 18px;
     }
     /*fin block3*/
     #commander
@@ -689,7 +689,7 @@ footer img
         margin-bottom: 20px;
     }
     /* fin footer*/
-    #entreeA, #entreeB, #entreeC, #platA, #platB, #platC, #dessertA, #dessertB, #dessertC
+    #entreeA, #entreeB, #entreeC,#entreeD, #platA, #platB, #platC, #dessertA, #dessertB, #dessertC
 {
     display: flex;
     flex-direction: row;
@@ -723,7 +723,7 @@ footer img
 .check
 {
  padding: 40px 25px 10px 25px;
- width: 0px;
+ 
  border-radius: 0px 25px 25px 0px;
  opacity: 0;
  display: flex;
@@ -731,7 +731,7 @@ footer img
  text-align: end;
  background-color: #99E2D0;
  transition: slideout 1s ease-in-out;
- margin-left: 0px;
+ 
  
 }
 .INTITULE:hover .check 
@@ -768,9 +768,9 @@ footer img
     to  {
         transform: translateX(-2px);
         opacity: 1;
-        margin-left: 70px;
+        margin-left: 20px;
         background-color: #99E2D0;
-        width: 130px;
+        width: 110px;
     }
 }
 
@@ -799,11 +799,7 @@ footer img
 {
     padding-top: 10px;
 }
-h3
-{
-    padding-bottom: 10px;
-    font-size: 25px;
-}
+
 }
   
 
