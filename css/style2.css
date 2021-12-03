@@ -163,7 +163,7 @@ h2
     font-weight: normal;
 }
 
-/*test*/
+
 #entreeA, #entreeB, #entreeC,#entreeD, #platA, #platB, #platC, #dessertA, #dessertB, #dessertC
 {
     display: flex;
@@ -213,8 +213,9 @@ h2
 {
     animation: slide 1s ease-in-out;
     opacity: 1;
-    animation-fill-mode: forwards;  
+    animation-fill-mode: both;  
 }
+
 .check i
 {
     color: white;
@@ -248,6 +249,7 @@ h2
         width: 130px;
     }
 }
+
 
 .INTITULE h3
 {
@@ -549,7 +551,6 @@ footer img
    
     .pointdesuspension p, h3
         {
-        width: 120px;
         border: 1px solid none;
         padding: 2px 5px;
         white-space: nowrap;
@@ -563,6 +564,14 @@ footer img
         {
         direction: ltr;
         }
+    .INTITULE:hover .NOMDUPLAT
+    {
+        width: 60%;
+    }
+    .INTITULE:hover .DESCRIPTION
+    {
+        width: 60%;
+    }
    
     
     #block3
@@ -736,10 +745,12 @@ footer img
 }
 .INTITULE:hover .check 
 {
-    animation: slide 1s ease-in-out;
+    animation: slide in ;
     opacity: 1;
-    animation-fill-mode: forwards;  
+    animation-fill-mode: forwards; 
+    
 }
+
 .check i
 {
     color: white;
@@ -756,7 +767,7 @@ footer img
         opacity: 1;
     }
 }
-@keyframes slide {
+@keyframes slide{
     from {
         transform: translateX(O);
         opacity: 0;
@@ -773,6 +784,8 @@ footer img
         width: 110px;
     }
 }
+
+    
 
 .INTITULE h3
 {
@@ -793,7 +806,7 @@ footer img
 {
     margin-top: 50px;
     font-size: 25px;
-    width: 60px;   
+    width: 40px;   
 }
 #entree p
 {
