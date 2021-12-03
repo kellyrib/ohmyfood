@@ -184,10 +184,14 @@ h2
     width: 800px;
     height: 100px;
     margin-left: 10px;
+
+    
+    
+    
 }
 .INTITULE:hover
 {
-    width: 642px ;
+    width: 642px;
     height: 100px;
 }
 .INTITULE:hover .check i
@@ -200,20 +204,27 @@ h2
  padding: 40px 25px 10px 25px;
  width: 0px;
  border-radius: 0px 25px 25px 0px;
- opacity: 0;
  display: flex;
  flex-direction: row;
  text-align: end;
  background-color: #99E2D0;
- transition: slideout 1s ease-in-out;
+ 
  margin-left: 0px;
+ opacity: 0;
+ transition: all 1s;
+ transition-timing-function: ease-in-out;
  
 }
 .INTITULE:hover .check 
 {
-    animation: slide 1s ease-in-out;
+    
+    
     opacity: 1;
-    animation-fill-mode: both;  
+    margin-left: 10px;
+    background-color: #99E2D0;
+    width: 20px;
+    
+       
 }
 
 .check i
@@ -232,24 +243,6 @@ h2
         opacity: 1;
     }
 }
-@keyframes slide {
-    from {
-        transform: translateX(O);
-        opacity: 0;
-        margin-left: 0px;
-        background-color: none;
-        width: 0;
-        
-    }
-    to  {
-        transform: translateX(-2px);
-        opacity: 1;
-        margin-left: 70px;
-        background-color: #99E2D0;
-        width: 130px;
-    }
-}
-
 
 .INTITULE h3
 {
@@ -263,7 +256,7 @@ h2
 }
 .test
 {
-    width: 500px; 
+    width: 100%; 
 }
 
 .COUT
@@ -739,9 +732,6 @@ footer img
  flex-direction: row;
  text-align: end;
  background-color: #99E2D0;
- transition: slideout 1s ease-in-out;
- 
- 
 }
 .INTITULE:hover .check 
 {
@@ -767,25 +757,6 @@ footer img
         opacity: 1;
     }
 }
-@keyframes slide{
-    from {
-        transform: translateX(O);
-        opacity: 0;
-        margin-left: 0px;
-        background-color: none;
-        width: 0;
-        
-    }
-    to  {
-        transform: translateX(-2px);
-        opacity: 1;
-        margin-left: 20px;
-        background-color: #99E2D0;
-        width: 110px;
-    }
-}
-
-    
 
 .INTITULE h3
 {
@@ -799,7 +770,7 @@ footer img
 }
 .test
 {
-    width: 500px; 
+    width: 100%; 
 }
 
 .COUT
