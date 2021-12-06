@@ -735,7 +735,7 @@ footer img
 }
 .INTITULE:hover .check 
 {
-    animation: slide in ;
+    animation: slide;
     opacity: 1;
     animation-fill-mode: forwards; 
     
